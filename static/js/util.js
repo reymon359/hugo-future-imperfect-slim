@@ -1,3 +1,9 @@
+// Nested comments
+function changeValue(elementName, newValue){
+  document.getElementsByName(elementName)[0].value=newValue;
+  window.location.hash = "#comment-form";
+};
+
 // Avoid `console` errors in browsers that lack a console.
 (function() {
   var method;
