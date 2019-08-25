@@ -6,6 +6,7 @@
 {{/* Backwards compatibility for deprecated parameter ".Site.Params.staticman.staticman" */}}
 {{ else if or .Site.Params.staticman.enabled .Site.Params.staticman.staticman }}
     <article class="post">
-      {{ .Render "staticman" }}
+      <!-- {{ .Render "staticman" }} -->
+      {{ partial "comments.html" .}}
     </article>
 {{ end }}
