@@ -53,3 +53,7 @@
 # Comments
 [comments]
   other = "Comentarios"
+[first_comment]
+  other = "Sé el primero en dejar un comentario! 🎉"
+[say_something]
+  other = "Di algo"

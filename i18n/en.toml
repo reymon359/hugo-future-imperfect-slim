@@ -54,3 +54,7 @@
 # Comments
 [comments]
   other = "Comments"
+[first_comment]
+  other = "Be the first to leave a comment! 🎉"
+[say_something]
+  other = "Say something"
