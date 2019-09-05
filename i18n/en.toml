@@ -58,9 +58,10 @@
   other = "Be the first to leave a comment! 🎉"
 [say_something]
   other = "Say something"
-[placeholder_name]
-  other = "Name *"
 [thank_you]
   other = "Thank you!"
 [comment_submitted]
   other = "Your comment has been submitted and will be published once it has been approved"
+[comment_reply] 
+  other = "In reply to"
+  

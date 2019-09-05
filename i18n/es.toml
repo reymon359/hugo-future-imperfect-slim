@@ -57,3 +57,9 @@
   other = "Sé el primero en dejar un comentario! 🎉"
 [say_something]
   other = "Di algo"
+[thank_you]
+  other = "Gracias!"
+[comment_submitted]
+  other = "Tu comentario ha sido enviado y se publicará en cuanto se apruebe"
+[comment_reply] 
+  other = "En respuesta a"
