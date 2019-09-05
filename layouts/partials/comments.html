@@ -11,7 +11,7 @@ function changeValue(elementName, newValue){
 {{ if and .Site.Params.staticman (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
     <section id="comments">
         {{ if .Site.Params.staticman }}
-        <h3 class="title"><a href="#comments">&#9997; Comments</a></h3>
+        <h3 class="title"><a href="#comments">&#9997; {{ i18n "comments" }}</a></h3>
         <section class="staticman-comments post-comments">
             {{ $comments := readDir "data/comments" }}
             {{ $.Scratch.Add "hasComments" 0 }}
